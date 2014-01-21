@@ -1,0 +1,31 @@
+!!! 5
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='http://fonts.googleapis.com/css?family=Ubuntu', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css")
+    link(href='/css/main.css', rel='stylesheet', media='screen')    
+  body
+  .container 
+    #navbar       
+      h1 Twitter Followers
+      p.lead Find out which of your friends are following you.
+    #input
+      form(role='form')
+        .form-group
+          input.form-control#search-input(for='screen-name', type='text', placeholder='Enter screen name.')
+        div
+          button.btn.btn-primary.btn-xl.btn-block#search(type='') Submit!
+    button.btn.btn-success.btn-xl.btn-block#again(type='') Go again!
+    #username
+
+    h3#results
+    include twitterdata.html
+
+  script(src='http://code.jquery.com/jquery.js')
+  script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js")
+  script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js")
+  script(src='/js/main.js')
+
+

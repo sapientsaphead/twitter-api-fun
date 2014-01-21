@@ -1,0 +1,21 @@
+<script id="search-results" type="text/x-handlebars-template">
+  <br>
+  <table class="table">
+    <tbody>
+      {{#each resultsArray}}
+        {{#if following}}
+          <tr>
+            <td>{{screen_name}}<td>
+            <td>True<td>
+          </tr>
+        {{else}}
+          <tr class="false"> 
+            <td>{{screen_name}}<td>
+            <td>False<td>
+          </tr>
+        {{/if}}
+      {{/each}}
+    </tbody>
+  </table>
+  <br>
+</script>

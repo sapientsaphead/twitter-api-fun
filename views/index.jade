@@ -1,0 +1,21 @@
+!!! 5
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='/css/bootstrap.min.css', rel='stylesheet', media='screen')
+    link(href='/css/main.css', rel='stylesheet', media='screen')    
+  body
+  .container              
+    h1 Twitter Followers
+    p.lead Find out which of your friends are following you.
+    br
+    input(type="text", class="form-control", id="username", placeholder="Twitter Username")
+
+
+    include twitterdata.html
+
+  script(src='http://code.jquery.com/jquery.js')
+  script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js")
+  script(src="/js/bootstrap.min.js")
+  script(src='js/username.js')

@@ -1,0 +1,61 @@
+/* custom css */
+
+.container {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 20px 0px;
+  max-width: 800px;
+  text-align: center;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 10px;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}
+
+#search-results, #again, #username {
+  display:none;        
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+p, table {
+  font-size: 16px;
+}
+
+.btn-xl {
+  font-size: 22px;
+  height: 40px;
+  line-height: normal;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}
+
+#search-input {
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  border-radius: 8px;
+}
+
+.false {
+  color: #d2322d;
+}
+
+
